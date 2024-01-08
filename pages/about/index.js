@@ -204,25 +204,25 @@ const About = () => {
                   after:-bottom-1 after:left-0`}
                   onClick={() => setIndex(itemIndex)}
                 >
-                  :{item.title}
+                  {item.title}
                 </div>
                 </>);
             })}
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-            {aboutData[index].info.map((item, itemIndex) => {
+            {aboutData[index].info.map((item, itemIcon) => {
               return (<>
-                <div key={itemIndex} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 cursor-default">
+                <div key={itemIcon} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 cursor-default">
                   {/* title */}
-                  <div className="font-light mb-2 md:mb-0 cursor-default">:{item.title}</div>
+                  <div className="font-light mb-2 md:mb-0 cursor-default">{item.title}</div>
                   <div className="hidden md:flex">-</div>
-                  <div>:{item.stage}</div>
+                  <div>{item.stage}</div>
                   <div className="flex gap-x-4">
                     {/* icons */}
                     {item.icons?.map((icon, itemIcon) => {
                       return (<>
                         <div key={itemIcon} className="text-2xl text-white">
-                          :{icon}
+                          {icon}
                         </div></>
                       )
                     })}
