@@ -11,7 +11,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/project2.png',
-          link: "https://toema04.github.io/React-3D/"
+          link: "https://portfolio-psi-dun-19.vercel.app/"
         },
         {
           title: 'title',
