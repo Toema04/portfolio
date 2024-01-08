@@ -3,7 +3,7 @@ import Circles from "/components/Circles"
 
 // icons
 
-import { RiDiscordLine, RiGithubLine, RiLinkedinLine, RiMessengerLine, RiTwitterXLine } from "react-icons/ri"
+import { RiDiscordLine, RiGithubLine, RiLinkedinLine, RiTwitterXLine } from "react-icons/ri"
 
 // framer
 import { motion } from "framer-motion"
