@@ -126,7 +126,7 @@ const About = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className="mb-3 text-2xl font-extrabold leading-25 md:leading-[1] text-[35px] md:text-[45px] cursor-default">Captivating
+            className="mb-3 text-2xl font-extrabold leading-25 md:leading-[1] leading-10 text-[35px] md:text-[45px] cursor-default">Captivating
             <span className="text-accent">stories</span> birth magnificent design.
           </motion.h2>
           <motion.p
@@ -134,7 +134,7 @@ const About = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className="max-w-[550px] mx-auto xl:mx-0 mb-5 xl:mb-6 px-2 xl:px-0 cursor-default">
+            className="max-w-[550px] mx-auto xl:mx-0 mb-2 xl:mb-6 px-2 xl:px-0 cursor-default ">
             since i was 18, i began programing as a developer.
             Since then. I've done  many projects and i look forward to be advansed
           </motion.p>

@@ -80,7 +80,7 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-[280px] w-[470px] md:h-[450px] md:w-[600px] lg:h-[470px] lg:w-[700px] xl:h-[480px]  xl:w-[100%]"
+      className="h-[280px] w-[370px] md:h-[450px] md:w-[600px] lg:h-[470px] lg:w-[700px] xl:h-[480px] xl:w-[100%]"
     // md:h-[380px] lg:h-[480px]
     >
       {workSlides.slides.map((slide, index) => {
@@ -97,7 +97,6 @@ const WorkSlider = () => {
                         width={500}
                         height={300}
                         alt=""
-                      // className="min-w-[200px] lg:max-w-[350px]"
                       />
                       {/* overlay gradient */}
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0
