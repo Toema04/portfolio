@@ -5,14 +5,15 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/project1.png',
-          link: "https://toema04.github.io/React-3D/"
+          path: '/project4.png',
+          link: "https://toema04.github.io/Modern-HooBank/"
         },
         {
           title: 'title',
           path: '/project2.png',
           link: "https://portfolio-psi-dun-19.vercel.app/"
         },
+       
         {
           title: 'title',
           path: '/project3.png',
@@ -20,8 +21,8 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/project4.png',
-          link: "https://toema04.github.io/Modern-HooBank/"
+          path: '/project5.png',
+          link: "https://toema04.github.io/SeifPortfolio/"
         },
       ],
     },
@@ -29,13 +30,13 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/project5.png',
-          link: "https://toema04.github.io/SeifPortfolio/"
+          path: '/project6.png',
+          link: "https://toema04.github.io/project-4/"
         },
         {
           title: 'title',
-          path: '/project6.png',
-          link: "https://toema04.github.io/project-4/"
+          path: '/project8.png',
+          link: "https://toema04.github.io/simple-project/"
         },
         {
           title: 'title',
@@ -44,8 +45,8 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/project8.png',
-          link: "https://toema04.github.io/simple-project/"
+          path: '/project1.png',
+          link: "https://toema04.github.io/React-3D/"
         },
       ],
     },
