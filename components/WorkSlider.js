@@ -9,34 +9,36 @@ const workSlides = {
           link: "https://toema04.github.io/Modern-HooBank/"
         },
         {
+    
           title: 'title',
-          path: '/project2.png',
-          link: "https://portfolio-psi-dun-19.vercel.app/"
+          path: '/project1.png',
+          link: "https://toema04.github.io/React-3D/"
         },
        
         {
           title: 'title',
-          path: '/project3.png',
-          link: "https://toema04.github.io/firstPortfolio/"
+          path: '/project9.png',
+          link: "https://movie-app-sepia-nine-21.vercel.app/"
         },
         {
           title: 'title',
-          path: '/project5.png',
-          link: "https://toema04.github.io/SeifPortfolio/"
+          path: '/project10.png',
+          link: "https://saas-kappa-neon.vercel.app/"
         },
       ],
     },
     {
       images: [
         {
-          title: 'title',
-          path: '/project6.png',
-          link: "https://toema04.github.io/project-4/"
+         
+                title: 'title',
+          path: '/project2.png',
+          link: "https://portfolio-psi-dun-19.vercel.app/"
         },
         {
-          title: 'title',
-          path: '/project8.png',
-          link: "https://toema04.github.io/simple-project/"
+           title: 'title',
+          path: '/project6.png',
+          link: "https://toema04.github.io/project-4/"
         },
         {
           title: 'title',
@@ -45,8 +47,8 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/project1.png',
-          link: "https://toema04.github.io/React-3D/"
+          path: '/project8.png',
+          link: "https://toema04.github.io/simple-project/"
         },
       ],
     },

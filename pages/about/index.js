@@ -26,18 +26,18 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 key="1"/>,
-          <FaCss3 key="2"/>,
-          <FaJs key="3"/>,
-          <FaReact key="4"/>,
-          <SiNextdotjs key="5"/>,
-          <SiFramer key="6"/>,
-          <FaWordpress key="7"/>,
+          <FaHtml5 key="1" />,
+          <FaCss3 key="2" />,
+          <FaJs key="3" />,
+          <FaReact key="4" />,
+          <SiNextdotjs key="5" />,
+          <SiFramer key="6" />,
+          <FaWordpress key="7" />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma key="8"/>, <SiAdobexd key="9"/>, <SiAdobephotoshop key="10"/>],
+        icons: [<FaFigma key="8" />, <SiAdobexd key="9" />, <SiAdobephotoshop key="10" />],
       },
     ],
   },
@@ -206,7 +206,7 @@ const About = () => {
                 >
                   {item.title}
                 </div>
-                </>);
+              </>);
             })}
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
@@ -228,7 +228,7 @@ const About = () => {
                     })}
                   </div>
                 </div>
-                </>)
+              </>)
             })}
           </div>
         </motion.div>
