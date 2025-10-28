@@ -2,7 +2,7 @@
 Welcome to Saif Toema's Portfolio – a personal portfolio website showcasing my skills and projects as a Front-End Developer. This site highlights the projects I’ve worked on and presents my technical expertise and design sense through a sleek, modern, and interactive UI.
 
 ## Live Demo
-You can view the live version of the portfolio .([here](https://portfolio-8hy2qh9t7-toema04s-projects.vercel.app/)).
+You can view the live version of the portfolio .[here](https://portfolio-8hy2qh9t7-toema04s-projects.vercel.app/).
 
 ## About the Project
 This portfolio website is built to give an overview of my skills as a Front-End Developer. It includes sections that feature:
