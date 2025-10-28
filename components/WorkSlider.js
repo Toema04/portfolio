@@ -4,41 +4,44 @@ const workSlides = {
     {
       images: [
         {
+          
           title: 'title',
-          path: '/project4.png',
-          link: "https://toema04.github.io/Modern-HooBank/"
+          path: '/project10.png',
+          link: "https://saas-kappa-neon.vercel.app/"
         },
-        {
-    
-          title: 'title',
-          path: '/project1.png',
-          link: "https://toema04.github.io/React-3D/"
+         {
+           title: 'title',
+          path: '/project 14.png',
+          link: "https://keyboard-e-commerce.vercel.app/"
         },
        
         {
           title: 'title',
-          path: '/project9.png',
-          link: "https://movie-app-sepia-nine-21.vercel.app/"
+          path: '/project 12.png',
+          link: "https://awards-app-sigma.vercel.app/"
         },
-        {
-          title: 'title',
-          path: '/project10.png',
-          link: "https://saas-kappa-neon.vercel.app/"
+        
+          {
+         
+                title: 'title',
+          path: '/project11.png',
+          link: "https://gasp-project-beige.vercel.app/"
         },
       ],
     },
     {
       images: [
-        {
-         
-                title: 'title',
-          path: '/project2.png',
-          link: "https://portfolio-psi-dun-19.vercel.app/"
+       {
+          title: 'title',
+          path: '/project4.png',
+          link: "https://toema04.github.io/Modern-HooBank/" 
         },
-        {
-           title: 'title',
-          path: '/project6.png',
-          link: "https://toema04.github.io/project-4/"
+       
+         {
+    
+          title: 'title',
+          path: '/project1.png',
+          link: "https://toema04.github.io/React-3D/"
         },
         {
           title: 'title',
@@ -47,8 +50,8 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/project8.png',
-          link: "https://toema04.github.io/simple-project/"
+          path: '/project13.png',
+          link: "https://solar-system-rose-two.vercel.app/"
         },
       ],
     },
@@ -67,13 +70,15 @@ import 'swiper/css/pagination';
 import { Pagination } from "swiper";
 
 // icon
-import { BsArrowRight } from "react-icons/bs"
+import { BsArrowRight, BsGithub } from "react-icons/bs"
 
 // image next
 import Image from "next/image";
 
 // next link
 import Link from "next/link"
+import { RiUserLocationFill } from "react-icons/ri";
+import { CgWebsite } from "react-icons/cg";
 
 const WorkSlider = () => {
   return (
@@ -110,13 +115,15 @@ const WorkSlider = () => {
                         <Link href={image.link ? image.link : 'https://github.com/Toema04'} className="">
                           <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em] sm:pb-2 md:pb-7 lg:pb-9 xl:pb-2">
                             {/* title part 1 */}
-                            <div className="delay-100">PROJECT</div>
+                            <div className="delay-100 text-[50px] flex justify-center items-center"><CgWebsite /></div>
                             {/* title part 2*/}
+                            {/* <Link href={'https://github.com/Toema04'}>
                             <div className="translate-y-[500%] group-hover:translate-y-0
-                           transition-all duration-300 delay-150">REPO</div>
+                           transition-all duration-300 delay-150 text-[50px] flex justify-center items-center"><BsGithub /></div>
+                           </Link> */}
                             {/* icon*/}
-                            <div className="text-xl translate-y-[500%] group-hover:translate-y-0
-                          transition-all duration-300 delay-200"><BsArrowRight /></div>
+                            {/* <div className="text-xl translate-y-[500%] group-hover:translate-y-0
+                          transition-all duration-300 delay-200"><BsArrowRight /></div> */}
                           </div>
                         </Link>
                       </div>

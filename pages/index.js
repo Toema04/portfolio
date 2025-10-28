@@ -24,7 +24,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className="h1 xl:mb-6 xs:mt-3 relative sm:top-5 ">
-             Hello I'm Saif Toema<br />
+             Hello I'm Seif Teima<br />
             <span className="text-accent">Front End Developer</span>
           </motion.h1>
           {/* subTitle */}
@@ -34,7 +34,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className="max-w-lg xl:max-w-xl mx-auto xl:mx-0 mb-2 xl:mb-6 ">
-            My name is Saif Toema I'm Front end Developer
+           I’m Seif Teima, a Front-End Developer passionate about crafting clean and engaging web experiences.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative ">
